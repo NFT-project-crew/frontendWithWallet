@@ -16,7 +16,7 @@ function App() {
     <Router
     basename={process.env.PUBLIC_URL}
     >
-    
+    <GlobalStyle/>
         <Routes>
           <Route exact path="/" 
             element={<LandingPage />} />

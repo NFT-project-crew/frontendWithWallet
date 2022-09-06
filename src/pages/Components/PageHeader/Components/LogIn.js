@@ -27,8 +27,6 @@ const Login = ()=>{
     return(
         <ButtonsWrapper>
 <LoginButton variant="secondary"  >Log In</LoginButton>
-
-<LoginButton variant="secondary" >Sign Up</LoginButton>
 </ButtonsWrapper>
     )
 }
