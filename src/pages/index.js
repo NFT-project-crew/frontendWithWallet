@@ -1,4 +1,4 @@
 import LandingPage from "./Landing/LandingPage"
 import Boilerplate from "./Boilerplate/BoilerPlate";
-
-export  {LandingPage, Boilerplate };
+import Buy from "./BuyTest/Buy";
+export  {LandingPage, Boilerplate, Buy };

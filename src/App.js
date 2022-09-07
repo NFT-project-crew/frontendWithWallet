@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {LandingPage, Boilerplate} from "./pages";
+import {LandingPage, Boilerplate, Buy} from "./pages";
 import GlobalStyle from "./lib/style/GlobalStyle"
 
 
@@ -22,6 +22,8 @@ function App() {
             element={<LandingPage />} />
         <Route exact path="/boiler" 
             element={<Boilerplate />} />
+             <Route exact path="/buy" 
+            element={<Buy />} />
         </Routes>
       </Router>
   );
