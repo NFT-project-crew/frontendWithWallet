@@ -11,10 +11,10 @@ const Test = ()=>{
 
 }
 
+
 function App() {
   return (
     <Router
-    basename={process.env.PUBLIC_URL}
     >
     <GlobalStyle/>
         <Routes>
